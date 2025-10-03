@@ -1,0 +1,42 @@
+# Main project configuration
+
+project:
+  name: "Clash Royale Analyzer"
+  version: "0.1.0"
+
+paths:
+  raw_videos: "data/raw_videos"
+  frames: "data/frames"
+  datasets: "data/datasets"
+  models: "models"
+  outputs: "outputs"
+
+video:
+  extraction_fps: 10 # Frames per second to extract
+  target_resolution: [1920, 1080]
+
+detection:
+  model_name: "yolov8n.pt"
+  confidence_threshold: 0.5
+  iou_threshold: 0.4
+
+arena:
+  grid_width: 18 # Tiles
+  grid_height: 32 # Tiles
+  bounds: # Pixel coordinates (adjust based on your resolution)
+    top_left: [100, 200]
+    bottom_right: [1820, 1000]
+
+classes:
+  troops:
+    - knight
+    - archer
+    - giant
+  spells:
+    - fireball
+    - arrows
+  buildings:
+    - cannon
+  towers:
+    - princess_tower
+    - king_tower
