@@ -76,3 +76,17 @@ python scripts/analyze_game.py --video data/raw_videos/game1.mp4 --output output
 ## Contributing
 
 This is currently a personal project, but suggestions and feedback are welcome!
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file for details
+
+## Acknowledgments
+
+- Supercell for creating Clash Royale
+- Ultralytics for YOLOv8
+- Roboflow for annotation tools
+
+---
+
+**Note**: This project is for educational purposes. All Clash Royale assets and trademarks belong to Supercell.
