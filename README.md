@@ -17,8 +17,8 @@
 
 - [x] Project setup
 - [x] Frame extraction
-- [x] Data annotation (in progress)
-- [ ] Model training
+- [x] Data annotation (done, but will have to come back to this)
+- [ ] Model training (in progress)
 - [ ] Basic detection
 - [ ] Event analysis
 - [ ] Transcript generation
