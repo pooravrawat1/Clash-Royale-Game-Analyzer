@@ -77,10 +77,6 @@ python scripts/analyze_game.py --video data/raw_videos/game1.mp4 --output output
 
 This is currently a personal project, but suggestions and feedback are welcome!
 
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details
-
 ## Acknowledgments
 
 - Supercell for creating Clash Royale
