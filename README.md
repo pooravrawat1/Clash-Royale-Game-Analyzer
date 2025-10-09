@@ -14,7 +14,7 @@
 🚧 **In Development** - Currently working on MVP with basic troop detection
 
 ### Current Progress
-
+*Currently working on training data on kaggle*
 - [x] Project setup
 - [x] Frame extraction
 - [x] Data annotation (done, but will have to come back to this)
