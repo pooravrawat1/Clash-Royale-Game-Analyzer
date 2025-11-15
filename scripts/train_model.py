@@ -62,7 +62,7 @@ def train_model(data_yaml, epochs=100, imgsz=640, batch=16, model_size='n', proj
             patience=20,  # Early stopping if no improvement for 20 epochs
             save=True,
             plots=True,
-            device='cuda' if os.system('nvidia-smi') == 0 else 'cpu',  # Auto-detect GPU
+            device='cpu',  # Use CPU (change to 'cuda' if you have a GPU)
             verbose=True
         )
         
